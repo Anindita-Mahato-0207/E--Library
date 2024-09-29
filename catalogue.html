@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<style>
+.book {
+display: inline-block;
+margin-right: 20px;
+vertical-align: top;
+}
+</style>
+<title>Bookstore - Books Catalogue</title>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="catalogue.html">Books Catalogue</a></li>
+<li><a href="cart.html">Shopping Cart</a></li>
+<li><a href="payment.html">Payment</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h2>Books Catalogue</h2>
+<div class="book" onclick="confirmAddToCart('goodomens..jpg', 'Good Omens',
+'12.00')">
+<img src="https://cdn.kobo.com/book-images/af9e00bf-5f88-44c2-832e-40415f5d86ec/353/569/90/False/good-omens-1.jpg" alt="Good Omens" width="200" height="400">
+<h3>Good Omens</h3>
+<p>Author: Terry Pratchett · Neil Gaiman</p>
+<p>Price: $12.00</p>
+</div>
+<div class="book" onclick="addToCart('IRON.jpg', 'Iron Widow', '15.00')">
+<img src="https://m.media-amazon.com/images/I/81cYkC-zelL._AC_UF1000,1000_QL80_.jpg" alt="Iron Widow" width="200" height="400">
+<h3>Iron Widow</h3>
+<p>Author: Xiran Jay Zhao</p>
+<p>Price: $15.00</p>
+</div>
+</main>
+</body>
+</html>
